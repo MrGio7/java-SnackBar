@@ -68,5 +68,12 @@ public class Main {
         System.out.println("(Bob) buys 3 of snack 3 (Pretzel).");
         System.out.println("Bobs cash on hand: " + c2.getCash());
         System.out.println("Pretzel left: " + s3.getQuantity());
+
+        System.out.println();
+
+        System.out.println(
+            "*** Strech Goals ***" + "\n" +
+            s1 + "\n" + s2 + "\n" + s3 + "\n" + s4 + "\n" + s5
+        );
     }
 }

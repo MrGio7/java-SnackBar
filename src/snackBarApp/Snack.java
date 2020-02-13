@@ -53,4 +53,14 @@ public class Snack {
     public int getVendingMachineId() {
         return vendingMachineId;
     }
+
+    @Override
+    public String toString() {
+        String rtnStr = "name: " + name + "\n" +
+                        "vendingMachine: " + vendingMachineId + "\n" +
+                        "quantity: " + quantity + "\n" +
+                        "total cost: " + (quantity * cost) + "\n";
+
+        return rtnStr;
+    }
 }
